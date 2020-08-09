@@ -29,16 +29,17 @@ Replacing reading and math score for 9th grade for Thomas High School(461 rows a
   ![schoolrep](https://github.com/ajinderbains/School_Analysis/blob/master/Screenshots/School_summary_nonNaN.PNG)
   #### With NaN values
   ![schrepnan](https://github.com/ajinderbains/School_Analysis/blob/master/Screenshots/SchoolSummary_Nan.png)
-- ### Top 5 Performing Schools
+- ### After replacing the ninth graders’ math and reading scores affect Thomas High School’s performance relative to the other schools
+  - ### Top 5 Performing Schools
 
-  - Replacing reading and math score for 9th grade of Thomas High School has impacted the **top 5 performing** list of schools also. Before replacement **Thomas High school** was on **2nd place** with around **91% overall passing**.But after replacement Thomas High school is out of the top 5 performing school and new list has new entry of **Wright High School**.
+    - Replacing reading and math score for 9th grade of Thomas High School has impacted the **top 5 performing** list of schools also. Before replacement **Thomas High school** was on **2nd place** with around **91% overall passing**.But after replacement Thomas High school is out of the top 5 performing school and new list has new entry of **Wright High School**.
   #### Without NaN values
   ![top5rep](https://github.com/ajinderbains/School_Analysis/blob/master/Screenshots/top5_nonNaN.PNG)
   #### With NaN values
   ![top5repnan](https://github.com/ajinderbains/School_Analysis/blob/master/Screenshots/top5_Nan.png)
- - ### Bottom 5 Performing Schools
+    - ### Bottom 5 Performing Schools
   
-   - It has not impacted the lowest 5 performing schools.Thomas High school's overall performance with NaN values is 65% which is higher than bottom 5 schools's.
+      - It has not impacted the lowest 5 performing schools.Thomas High school's overall performance with NaN values is 65% which is higher than bottom 5 schools's.
   #### With and Without NaN values
   ![bot5rep](https://github.com/ajinderbains/School_Analysis/blob/master/Screenshots/Bottom5_schools.PNG)
 - ### Impact of replacing Math and Reading score of 9th Grade to NaN for Thomas High School by Grade,School Spending,School size and School type 
@@ -62,9 +63,26 @@ Replacing reading and math score for 9th grade for Thomas High School(461 rows a
    #### Without NaN values
    ![spendrep](https://github.com/ajinderbains/School_Analysis/blob/master/Screenshots/schoolspendinf_nonNan.png)
    #### With NaN values
-   ![spendrepnan](https://github.com/ajinderbains/School_Analysis/blob/master/Screenshots/Schoolspending_Nan.png) 
-o	After replacement the Average scores and %age passing scores has been dropped for Medium (1000-2000) size schools. Other school sizes remained unchanged because Thomas High School falls in this range.
-o	Afer replacement the Average scores and %age passing scores also dropped for Charter School type and District school type remain unchaged because Thomas High School is Charter school type.
+   ![spendrepnan](https://github.com/ajinderbains/School_Analysis/blob/master/Screenshots/Schoolspending_Nan.png)
+    - ### Score by School size
+       - After  replacement the Average math and reading  scores  has been dropped for Medium (1000-2000) size schools from 83.4 to 78.7 and 83.9 to 79.1
+       - After  replacement the % passing scores for math and reading dropped  for Medium (1000-2000) size schools from 94 to 88 and 97 to 91.
+       - After  replacement the overall performance  has been dropped for Medium (1000-2000) size schools from 91 to 85 .
+       - Other school sizes remained unchanged because Thomas High School falls in this range.
+    #### Without NaN values
+   ![sizerep](https://github.com/ajinderbains/School_Analysis/blob/master/Screenshots/schoolsize_nonNan.png)
+   #### With NaN values
+   ![sizerepnan](https://github.com/ajinderbains/School_Analysis/blob/master/Screenshots/Schoolsize_Nan.png)  
+  - ### Score by School Type
+       - After  replacement the Average math and reading  scores  has been dropped for Charter schools from 83.5 to 80.5 and 83.9 to 80.9
+       - After  replacement the % passing scores for math and reading dropped for  charter schools from 94 to 90 and 97 to 93
+       - After  replacement the overall performance  has been dropped for Charter schools from 90 to 87 
+       - District school type remained unchanged because Thomas High School is charter scholl type .
+    #### Without NaN values
+   ![typerep](https://github.com/ajinderbains/School_Analysis/blob/master/Screenshots/schooltype_nonNan.png)
+   #### With NaN values
+   ![typerepnan](https://github.com/ajinderbains/School_Analysis/blob/master/Screenshots/Schooltype_Nan.png)  
+
 ## Summary
 Replacing reading and math score for 9th grade of Thomas High School with null values following are major changes for School District Analysis:
 1.	Overall Passing,Average Math and reading scores for Thomas Hogh School have fallen significantly.
