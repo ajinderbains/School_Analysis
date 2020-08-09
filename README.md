@@ -15,7 +15,7 @@ Comparison analysis will be performed with and without Null values of 9th grade 
 Replacing reading and math score for 9th grade for Thomas High School(461 rows are identified and replaced with Null value) has impacted mostly all School Summary reports but little impact on District summary.
 - ### District Summary Report
   - By replacing reading and math score for 9th grade for Thomas High School has impacted district summary by **1%** of Average reading,math score,% passing math,reading and overall scores.After replacing to null values it is decreased to 78.0 ,80.9 74, 85, 64. As it is clear in following screenshots of with given original data and after replacing scores of 9th grade for Thomas High School with null values.
-  - Total School countTotal student count and Total Budget remains same.
+  - Total School count ,Total student count and Total Budget remains same.
   #### Without NaN values
   ![districtrep](https://github.com/ajinderbains/School_Analysis/blob/master/Screenshots/school_district_nonNaN.PNG)
   #### With NaN values
