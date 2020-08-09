@@ -5,7 +5,7 @@ School boared noticed that Thomas High School has misreported reading and math s
 - School Summary
 - Top 5 Performing Schools
 - Bottom 5 Performing Schools
-- Math and Reading scores for each  gradefrom each School
+- Math and Reading scores for each  grade from each School
 - Scores by Spending per student,school size and school type.
 
 To perform analysis all reading and math score for 9th grade for Thomas High School will be replaced with Null values.
@@ -33,6 +33,9 @@ Replacing reading and math score for 9th grade for Thomas High School(461 rows a
   - ### Top 5 Performing Schools
 
     - Replacing reading and math score for 9th grade of Thomas High School has impacted the **top 5 performing** list of schools also. Before replacement **Thomas High school** was on **2nd place** with around **91% overall passing**.But after replacement Thomas High school is out of the top 5 performing school and new list has new entry of **Wright High School**.
+    - Thomas High School ranking slipped from **2nd to 8th** .
+    - Average Math and Reading score are  **24 points less then  by  in comparison to Top 5 performing schools**.
+    - Percentage math and reading scores are **27 points less than by in comparison to Top 5 performing schools**. 
   #### Without NaN values
   ![top5rep](https://github.com/ajinderbains/School_Analysis/blob/master/Screenshots/top5_nonNaN.PNG)
   #### With NaN values
