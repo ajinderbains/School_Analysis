@@ -22,15 +22,24 @@ Replacing reading and math score for 9th grade for Thomas High School(461 rows a
   ![distrepnan](https://github.com/ajinderbains/School_Analysis/blob/master/Screenshots/DistrictSummary_Nan.png)
 - ### School Summary Report
   - Replacing reading and math score for 9th grade of Thomas High School has impacted significantly school summary (for each school) to Thomas High school and other schools remain unaffected .
-  - Average reading,math scores has dropped significantly for Thomas high school from .
-  - % Passing reading ,math scores has dropped significantly for Thomas high school from
-  - Overall passing has dropped for Thomas high school from 91% to 65%.
+  - **Average reading,math scores** has dropped significantly for Thomas high school from **83.85 to 60.24** and **83.42 to 59.85** respectively. 
+  - **% Passing reading ,math** scores has dropped significantly for Thomas high school from **97 to 69.66** and **93 to 66.91** respectively. 
+  - **Overall passing** has dropped for Thomas high school from **91% to 65%**.
   #### Without NaN values
-  ![districtrep](https://github.com/ajinderbains/School_Analysis/blob/master/Screenshots/School_summary_nonNaN.PNG)
+  ![schoolrep](https://github.com/ajinderbains/School_Analysis/blob/master/Screenshots/School_summary_nonNaN.PNG)
   #### With NaN values
-  ![distrepnan](https://github.com/ajinderbains/School_Analysis/blob/master/Screenshots/SchoolSummary_Nan.png)
+  ![schrepnan](https://github.com/ajinderbains/School_Analysis/blob/master/Screenshots/SchoolSummary_Nan.png)
+- ###Top 5 Performing Schools
+
+  - Replacing reading and math score for 9th grade of Thomas High School has impacted the **top 5 performing** list of schools also. Before replacement **Thomas High school** was on **2nd place** with around **91% overall passing**.But after replacement Thomas High school is out of the top 5 performing school and new list has new entry of **Wright High School**.
+  #### Without NaN values
+  ![top5rep](https://github.com/ajinderbains/School_Analysis/blob/master/Screenshots/top5_nonNaN.PNG)
+  #### With NaN values
+  ![top5repnan](https://github.com/ajinderbains/School_Analysis/blob/master/Screenshots/top5_Nan.png)
   
-•	Replacing reading and math score for 9th grade of Thomas High School has impacted the top 5 performing list of schools also. Before replacement Thomas High school was on 2nd place with around 91% overall passing.But after replacement Thomas High school is out of the top 5 performing school and new list has new entry of Wright High School.It did not impacted the lowest 5 performing schools.
+  
+  
+  It did not impacted the lowest 5 performing schools.
 •	Replacing reading and math score for 9th grade of Thomas High School has impacted the Thomas High School for Math and reading ,Scores by school spending,Scores by school size,Scores by school typeas follow
 o	Math and Reading score for Thomas High School for 9th grade is 0 or null and it did not impacted the scores of other grades scores.Replacement to null values did not impacted the 9th grade scores because change was for 9th grade and Thomas High School only.
 o	After replacement the Average scores has been dropped for spending range $630-644 . Other school spending ranges remained unchanged because It is because Thomas High School falls in this spending range.
