@@ -29,17 +29,19 @@ Replacing reading and math score for 9th grade for Thomas High School(461 rows a
   ![schoolrep](https://github.com/ajinderbains/School_Analysis/blob/master/Screenshots/School_summary_nonNaN.PNG)
   #### With NaN values
   ![schrepnan](https://github.com/ajinderbains/School_Analysis/blob/master/Screenshots/SchoolSummary_Nan.png)
-- ###Top 5 Performing Schools
+- ### Top 5 Performing Schools
 
   - Replacing reading and math score for 9th grade of Thomas High School has impacted the **top 5 performing** list of schools also. Before replacement **Thomas High school** was on **2nd place** with around **91% overall passing**.But after replacement Thomas High school is out of the top 5 performing school and new list has new entry of **Wright High School**.
   #### Without NaN values
   ![top5rep](https://github.com/ajinderbains/School_Analysis/blob/master/Screenshots/top5_nonNaN.PNG)
   #### With NaN values
   ![top5repnan](https://github.com/ajinderbains/School_Analysis/blob/master/Screenshots/top5_Nan.png)
+ - ### Bottom 5 Performing Schools
   
-  
-  
-  It did not impacted the lowest 5 performing schools.
+   - It has not impacted the lowest 5 performing schools.Thomas High school's overall performance with NaN values is 65% which is higher than bottom 5 schools's.
+  #### With and Without NaN values
+  ![bot5rep](https://github.com/ajinderbains/School_Analysis/blob/master/Screenshots/Bottom5_schools.PNG)
+ 
 •	Replacing reading and math score for 9th grade of Thomas High School has impacted the Thomas High School for Math and reading ,Scores by school spending,Scores by school size,Scores by school typeas follow
 o	Math and Reading score for Thomas High School for 9th grade is 0 or null and it did not impacted the scores of other grades scores.Replacement to null values did not impacted the 9th grade scores because change was for 9th grade and Thomas High School only.
 o	After replacement the Average scores has been dropped for spending range $630-644 . Other school spending ranges remained unchanged because It is because Thomas High School falls in this spending range.
