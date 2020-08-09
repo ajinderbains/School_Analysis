@@ -1,6 +1,6 @@
 # School_Analysis
 ## Project Overview
-School boared noticed that Thomas High School has misreported reading and math scores for 9th grade so boared has asked to re analysis following reports 
+School boared noticed that Thomas High School has misreported reading and math scores for 9th grade so board has asked to re analysis following reports 
 - District Summary
 - School Summary
 - Top 5 Performing Schools
@@ -90,7 +90,7 @@ Replacing reading and math score for 9th grade for Thomas High School(461 rows a
 Replacing reading and math score for 9th grade of Thomas High School with null values following are major changes for School District Analysis:
 1.	Overall Passing,Average Math and reading scores for **Thomas Hogh School have fallen significantly**.
 2.	Thomas High School has been **dropped from top 5 performing schools** list. New school Wright High School has been added at rank 5 and Griffin,Wilson and Pena High Schools have been ranked up to 2nd,3rd and 4th respectively.
-3.	Average scores and %age passing scores also dropped for **Charter** School type.
-4.	Average scores and %age passing scores also dropped for **Spending Range ( $630-644)** and **Medium sized( Medium (1000-2000))** Schools .
+3.	Average math and reading scores and %age passing scores for math and reading  also dropped for **Charter** School type.
+4.	Average math and reading scores and %age passing scores for math and reading  also dropped for **Spending Range ( $630-644)** and **Medium sized( Medium (1000-2000))** Schools .
 
 
