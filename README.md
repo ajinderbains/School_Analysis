@@ -41,10 +41,28 @@ Replacing reading and math score for 9th grade for Thomas High School(461 rows a
    - It has not impacted the lowest 5 performing schools.Thomas High school's overall performance with NaN values is 65% which is higher than bottom 5 schools's.
   #### With and Without NaN values
   ![bot5rep](https://github.com/ajinderbains/School_Analysis/blob/master/Screenshots/Bottom5_schools.PNG)
- 
-•	Replacing reading and math score for 9th grade of Thomas High School has impacted the Thomas High School for Math and reading ,Scores by school spending,Scores by school size,Scores by school typeas follow
-o	Math and Reading score for Thomas High School for 9th grade is 0 or null and it did not impacted the scores of other grades scores.Replacement to null values did not impacted the 9th grade scores because change was for 9th grade and Thomas High School only.
-o	After replacement the Average scores has been dropped for spending range $630-644 . Other school spending ranges remained unchanged because It is because Thomas High School falls in this spending range.
+- ### Impact of replacing Math and Reading score of 9th Grade to NaN for Thomas High School by Grade,School Spending,School size and School type 
+  - ### Math and Reading Scores for each School
+    -	Replacing reading and math score for 9th grade of Thomas High School has not  impacted other schools except the Thomas High School for Math and reading scores .Math and reading scores for Thomas High School has dropped to 0 for 9th Grade only
+    -  Reading and Math scores for other grades remain same.
+    - Reading and Math scores for other schools for each grade remain same. 
+  #### Math Score Without NaN values
+  ![mathrep](https://github.com/ajinderbains/School_Analysis/blob/master/Screenshots/mathscore_nonNan.png)
+  #### Math Score With NaN values
+  ![mathrepnan](https://github.com/ajinderbains/School_Analysis/blob/master/Screenshots/mathscore_Nan.png)
+  #### Reading Score Without NaN values
+  ![readrep](https://github.com/ajinderbains/School_Analysis/blob/master/Screenshots/readingscore_nonNan.png)
+  #### Reading Score With NaN values
+  ![readrepnan](https://github.com/ajinderbains/School_Analysis/blob/master/Screenshots/readingscore_Nan.png)
+  - ### Scores by School Spending
+    - After replacement the Average scores for math and reading  has been dropped for spending range $630-644  from 78.5 to 72.6 and 81.6 to 75.7 respectively
+    - After replacement the % passing scores for math and reading dropped for spending range $630-644  from 73 to 67 and 84 to 77 respectively.
+    - After replacement Overall performance is dropped from 63 to 56 for spending range $630-644.
+    - Other school spending ranges remained unchanged because It is because Thomas High School falls in this spending range.
+   #### Without NaN values
+   ![spendrep](https://github.com/ajinderbains/School_Analysis/blob/master/Screenshots/schoolspendinf_nonNan.png)
+   #### With NaN values
+   ![spendrepnan](https://github.com/ajinderbains/School_Analysis/blob/master/Screenshots/Schoolspending_Nan.png) 
 o	After replacement the Average scores and %age passing scores has been dropped for Medium (1000-2000) size schools. Other school sizes remained unchanged because Thomas High School falls in this range.
 o	Afer replacement the Average scores and %age passing scores also dropped for Charter School type and District school type remain unchaged because Thomas High School is Charter school type.
 ## Summary
